@@ -1,0 +1,17 @@
+{
+  "name": "react-fiber",
+  "module": "index.ts",
+  "type": "module",
+  "scripts":{
+    "dev":"bun --watch ./index.ts",
+    "test":"bun test",
+    "lint":"bunx @biomejs/biome format ./index.ts --write"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.4.1",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
